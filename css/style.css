@@ -1,3 +1,7 @@
 div.test button.custom:hover {
     background-color: rgb(230, 205, 122) !important;
 }
+
+div.test button.custom:focus {
+    background-color: rgb(230, 205, 122) !important;
+}
