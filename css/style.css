@@ -5,3 +5,10 @@ div.test button.custom:hover {
 div.test button.custom:focus {
     background-color: rgb(230, 205, 122) !important;
 }
+
+.rounded-circle {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
