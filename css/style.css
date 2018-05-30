@@ -1,9 +1,36 @@
-div.test button.custom:hover {
-    background-color: rgb(230, 205, 122) !important;
+div.test button.custom {
+    /* background-color: rgb(182, 197, 202) !important; */
+    background-color: rgb(182, 197, 202) !important;
+    border-color: inherit !important;
+    outline: none !important;
 }
 
 div.test button.custom:focus {
+    background-color: rgb(139, 132, 87) !important;
+    border-color: inherit !important;
+    outline: none !important;
+}
+
+div.test button.custom:hover {
     background-color: rgb(230, 205, 122) !important;
+    border-color: inherit !important;
+    outline: none !important;
+}
+
+.custom-trigger:hover {
+    color: rgb(230, 205, 122) !important;
+}
+
+.custom-trigger:focus {
+    color: rgb(139, 132, 87) !important;
+}
+
+.test-scroll {
+    background-color: rgb(230, 205, 122) !important;
+}
+
+.test-scroll:hover {
+    background-color: rgb(139, 132, 87) !important;
 }
 
 .rounded-circle {
@@ -11,4 +38,13 @@ div.test button.custom:focus {
     width: 100%;
     height: 100%;
     background-position: center;
+}
+
+.contact-info {
+    color: rgb(139, 132, 87);
+}
+
+.footer {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
 }
