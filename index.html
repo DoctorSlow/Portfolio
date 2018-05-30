@@ -72,7 +72,7 @@
       <div class="row">
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle custom-circle">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x">
                   <br>Hangman
@@ -84,7 +84,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle custom-circle">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x">
                   <br>Dice
@@ -96,7 +96,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle custom-circle">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x">
                   <br>Trivia
@@ -108,7 +108,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle custom-circle">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x">
                   <br>Doko
@@ -120,7 +120,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle custom-circle">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x">
                   <br>Gif
@@ -132,7 +132,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 rounded-circle custom-circle">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x">
                   <br>PairSomm
@@ -229,26 +229,34 @@
             </div>
           </form> -->
         <div class="col-lg-4 ml-auto text-center contact-info">
+          <hr>
           <br>
-          <i class="fa fa-envelope fa-2x"> Email:</i>
+          <i class="fa fa-envelope-open fa-2x"> Email:</i>
           <br>
           <br>
           <i class="fa fa-2x">
             <a href="mailto:doctorslow@gmail.com">doctorslow@gmail.com</a>
           </i>
           <br>
+
         </div>
 
         <div class="col-lg-4 mr-auto text-center contact-info">
+          <hr>
           <br>
           <i class="fa fa-home fa-2x"> Address:</i>
           <br>
           <br>
-          <i class="fa fa-2x">2531 E. Halcyon Rd., Tucson, AZ 85716 USA</i>
+          <i class="fa fa-2x">2531 E. Halcyon Rd.,
+            <br>Tucson, AZ 85716
+            <br>
+            <br>USA</i>
           <br>
+
         </div>
 
         <div class="col-lg-4 mr-auto text-center contact-info">
+          <hr>
           <br>
           <i class="fa fa-phone fa-2x"> Phone:</i>
           <br>
@@ -256,6 +264,7 @@
           <i class="fa fa-2x">520-271-2528
           </i>
           <br>
+
         </div>
       </div>
     </div>
@@ -327,13 +336,16 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Hangman Game</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/hangman.png" alt="Hangman Image">
+            <a href="https://doctorslow.github.io/Hangman-Game/" target="_blank" title="Play the Game">
+              <img class="img-fluid" src="img/portfolio/hangman.png" alt="Hangman Image">
+            </a>
             <p class="mb-5">This is a basic variation on the classic hangman type game. A random word is chosen for the player and represented
               by underscores on the screen. You must guess the letters or 'die' trying. Each correct guess will reveal the
               letter(s) in the puzzle, while each incorrect guess will land you one step closer to the edge as your incorrect
               guesses are limited. Good luck.</p>
-            <a class="btn btn-primary btn-lg rounded-pill" href="https://doctorslow.github.io/Hangman-Game/" target="_blank">
-              <i class="fa fa-check"></i>Play Game!</a>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#" target="_blank">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
@@ -351,12 +363,15 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Dice Game</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/dice.png" alt="Dice Image">
+            <a href="https://doctorslow.github.io/week-4-game/" target="_blank" title="Play the Game">
+              <img class="img-fluid mb-5" src="img/portfolio/dice.png" alt="Dice Image">
+            </a>
             <p class="mb-5">This game is a basic matching and adding game similar to blackjack. You have four dice with hidden values. You
               must click on each die to reveal it's value and add it to your sum. The goal is to match your dice sum with
               the computer-generated random target number. If you do that, you win. Otherwise...</p>
-            <a class="btn btn-primary btn-lg rounded-pill" href="https://doctorslow.github.io/week-4-game/" target="_blank">
-              <i class="fa fa-check"></i>Play Game!</a>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#" target="_blank">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
@@ -374,12 +389,15 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Trivia Game</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/trivia.png" alt="Trivia Image">
+            <a href="https://doctorslow.github.io/TriviaGame/" target="_blank" title="Play the Game">
+              <img class="img-fluid mb-5" src="img/portfolio/trivia.png" alt="Trivia Image">
+            </a>
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
               recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
               itaque. Nam.</p>
-            <a class="btn btn-primary btn-lg rounded-pill" href="https://doctorslow.github.io/TriviaGame/" target="_blank">
-              <i class="fa fa-check"></i>Play Game!</a>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#" target="_blank">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
@@ -397,7 +415,9 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Doko App</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/compass.png" alt="Compass Image">
+            <a href="https://doctorslow.github.io/doko/" target="_blank" title="Try the App">
+              <img class="img-fluid mb-5 rounded-circle" src="img/portfolio/compass.png" alt="Compass Image">
+            </a>
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
               recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
               itaque. Nam.</p>
@@ -421,12 +441,14 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Silent Radio Gif Generator</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/Radio.png" alt="Radio Image">
+            <a href="https://doctorslow.github.io/GiphyGenerator/" target="_blank" title="Try It Out">
+              <img class="img-fluid mb-5 rounded-circle" src="img/portfolio/Radio.png" alt="Radio Image">
+            </a>
             <p class="mb-5">Tune in to an otherwordly radio that delights with GIFs generated at the push of a button--choose a genre, any
               genre, and the Silent Radio Gif Generator will take care of the rest. Anachronistic AF.</p>
-            <a class="btn btn-primary btn-lg rounded-pill" href="https://doctorslow.github.io/GiphyGenerator/" target="_blank">
-              <i class="fa fa-check"></i>
-              Tune in!</a>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#" target="_blank">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
@@ -444,7 +466,9 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">PairSomm App</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/sommelier.png" alt="Sommelier Image">
+            <a href="https://cryptic-savannah-91807.herokuapp.com/" target="_blank" title="Try the App">
+              <img class="img-fluid mb-5 rounded-circle" src="img/portfolio/sommelier.png" alt="Sommelier Image">
+            </a>
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
               recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
               itaque. Nam.</p>
