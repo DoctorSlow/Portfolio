@@ -54,3 +54,15 @@ div.test button.custom:hover {
 *:focus {
     outline: none !important;
 }
+
+.link {
+    color: rgb(139, 132, 87) !important;
+}
+
+.link:hover {
+    color: rgb(230, 205, 122) !important;
+}
+
+.link:focus {
+    color: rgb(139, 132, 87) !important;
+}
